@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "fancyhoppers",
+  "version": "${version}",
+
+  "name": "fancyhoppers",
+  "description": "Mod that adds tiered hoppers to the game",
+  "authors": [],
+  "contact": {},
+
+  "license": "MIT",
+  "icon": "assets/fancyhoppers/icon.png",
+
+  "environment": "*",
+  "entrypoints": {},
+
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+        "fabric": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
